@@ -10,8 +10,8 @@
 Este repositorio está organizado por módulos según el avance del curso:
 
 ### 🔹 Fundamentos
-- [ ] **HTML5 Semántico:** Estructura correcta del documento, enlaces, listas y tablas.
-- [ ] **Formularios:** Inputs, validaciones y estructura de contacto.
+- [X] **HTML5 Semántico:** Estructura correcta del documento, enlaces, listas y tablas.
+- [x] **Formularios:** Inputs, validaciones y estructura de contacto.
 - [ ] **CSS3 Básico:** Selectores, tipografías, colores y el Modelo de Caja (Box Model).
 
 ### 🔹 Diseño Moderno & Layouts
