@@ -1,7 +1,7 @@
 # Curso-HTML5-CSS3
 # 🚀 Curso en Diseño Web: HTML5 y CSS3
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Responsive](https://img.shields.io/badge/Responsive-Design-orange?style=for-the-badge)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](HTML/HTML5) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Responsive](https://img.shields.io/badge/Responsive-Design-orange?style=for-the-badge)
 
 ---
 
@@ -10,8 +10,8 @@
 Este repositorio está organizado por módulos según el avance del curso:
 
 ### 🔹 Fundamentos
-- [ ] **HTML5 Semántico:** Estructura correcta del documento, enlaces, listas y tablas.
-- [ ] **Formularios:** Inputs, validaciones y estructura de contacto.
+- [X] **HTML5 Semántico:** Estructura correcta del documento, enlaces, listas y tablas.
+- [x] **Formularios:** Inputs, validaciones y estructura de contacto.
 - [ ] **CSS3 Básico:** Selectores, tipografías, colores y el Modelo de Caja (Box Model).
 
 ### 🔹 Diseño Moderno & Layouts
