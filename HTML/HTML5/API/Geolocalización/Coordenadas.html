@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalización por Coordenadas</title>
+</head>
+<body>
+    <button onclick="getLocation()">Ubicación</button>
+    <p id="Localizacion"></p>
+    <script>
+        var geo = document.getElementById("Localizacion");
+        function getLocation(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            }
+            else{
+                geo.innerHTML = "No es compatible la geolocalización"
+            }
+        }
+        function showPosition(position){
+            geo.innerHTML = "Latitud: " + position.coords.latitude + "<br/>" +
+            "Longitud: " + position.coords.longitude;
+        }
+        function showError(error) {
+            switch(error.code) {
+                case error.PERMISSION_DENIED:
+                    geo.innerHTML = "El usuario denegó el permiso de ubicación.";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    geo.innerHTML = "La ubicación no está disponible.";
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
