@@ -1,0 +1,26 @@
+h1{
+    background-color: coral;
+}
+
+#p1{
+    background-color: rgb(132, 132, 24);
+    color: rgb(7, 91, 91);
+}
+
+a{
+    color: inherit; /*Herencia*/
+}
+
+#identificador{
+    color: lawngreen;
+}
+
+.clase{
+    color: pink;
+}
+
+/*Aunque la hoja de estilos trabaja en cascada, se tomará el contenido del id sobre el de la clase porque tiene mayor peso*/
+
+#identificador{
+    color: goldenrod !important; /*Si hay un "!important" ya no se tiene en cuenta la cascada y se toma ese sobre todos*/
+}
