@@ -1,0 +1,24 @@
+/*
+Distintos elementos pueden tener la misma clase
+*/
+.parrafo{
+    color: whitesmoke;
+    font-size: 48px;
+    background-color: black;
+}
+/* De esta manera solo los p que tengan la clase parrafo tendrán esas características
+p.parrafo{
+    color: whitesmoke;
+    font-size: 48px;
+    background-color: black;
+}
+*/
+
+/*
+El ID se utiliza para identificar un único elemento
+*/
+#Identificacion{
+    font-size: 30px;
+    color: chartreuse;
+
+}

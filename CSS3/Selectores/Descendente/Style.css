@@ -1,0 +1,7 @@
+/*
+Todos los elementos "a" que esten dentro de un "p", tendrán estas características
+*/
+p a{
+    background-color: greenyellow;
+    color: rgb(206, 103, 38);
+}

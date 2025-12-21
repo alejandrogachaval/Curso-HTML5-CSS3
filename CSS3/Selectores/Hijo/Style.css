@@ -1,0 +1,14 @@
+/*
+Toda etiqueta "a" que sea hija de "h1" va a tener las siguientes características
+*/
+h1 > a{
+    color: coral;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p > a{
+    color: firebrick;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

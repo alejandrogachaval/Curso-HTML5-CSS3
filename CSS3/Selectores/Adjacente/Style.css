@@ -1,0 +1,8 @@
+/*
+Al elemento más cercano (adjacente hacia abajo) a h2 (h3) se le colocan los siguientes estilos
+*/
+h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

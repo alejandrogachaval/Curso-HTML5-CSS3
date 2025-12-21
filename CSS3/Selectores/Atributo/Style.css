@@ -1,0 +1,15 @@
+/*
+Aplica todos los estilos a todos los elementos que tengan el atributo "class", sin importar que clase sean
+*/
+[class]{
+    color: bisque;
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+De esta manera si se especifica qué clase se quiere que se le apliquen los estilos
+*/
+[class=parrafo]{
+    color: seagreen;
+    font-weight: bold;
+}
